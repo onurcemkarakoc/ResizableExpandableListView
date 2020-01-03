@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_vertical"
+    android:padding="8dp"
+    android:id="@+id/list_group_ll"
+    android:layout_height="70dp"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_group_txt"
+        android:textSize="22sp"
+        tools:text="ONURCEMKARAKOC"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:id="@+id/list_group_img"
+        android:tint="@color/colorPrimary"/>
+
+</LinearLayout>
